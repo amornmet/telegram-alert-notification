@@ -1,0 +1,4 @@
+flask
+redis
+python-telegram-bot==11.1.0
+requests

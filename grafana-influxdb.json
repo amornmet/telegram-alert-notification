@@ -1,0 +1,36 @@
+{
+    "title": "[Alerting] Host CPU Usage",
+    "ruleId": 4,
+    "ruleName": "Host CPU Usage",
+    "state": "alerting",
+    "evalMatches": [
+      {
+        "value": 6.35819154059778,
+        "metric": "srb1-dom3-alpha-node01",
+        "tags": {
+          "host": "srb1-dom3-alpha-node01"
+        }
+      },
+      {
+        "value": 15.858650224844618,
+        "metric": "srb1-dom3-alpha-node02",
+        "tags": {
+          "host": "srb1-dom3-alpha-node02"
+        }
+      },
+      {
+        "value": 11.507902668931175,
+        "metric": "srb1-dom3-alpha-node03",
+        "tags": {
+          "host": "srb1-dom3-alpha-node03"
+        }
+      }
+    ],
+    "orgId": 1,
+    "dashboardId": 5,
+    "panelId": 4,
+    "tags": {},
+    "ruleUrl": "http://localhost:3000/d/cv4pve-metrics-alert/proxmox-ve-alert?tab=alert&viewPanel=4&orgId=1",
+    "message": "Exceeded % recommended"
+  }
+  
